@@ -1,0 +1,23 @@
+cat > .gitignore << 'EOF'
+# Go
+vendor/
+*.exe
+*.test
+*.out
+
+# Env / secrets
+.env
+.env.local
+
+# Node / frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# OS junk
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+EOF
